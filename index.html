@@ -12,10 +12,10 @@
             rel="stylesheet">
         <link rel="stylesheet" href="src/css/output.css">
     </head>
-    <body class="w-full min-w-[32.9375rem] overflow-x-hidden">
+    <body class="max-w-full min-w-[32.9375rem] overflow-x-hidden">
         <!--Header-->
         <header class="header">
-            <div class="header__container flex flex-col pt-10 px-10 mb-32">
+            <div class="header__container flex flex-col pt-10 px-10 mb-52">
                 <div
                     class="header-tabs flex flex-row justify-between gap-5 mb-40">
                     <img src="public/images/header/logo.svg" alt="logo">
@@ -47,7 +47,7 @@
 
                 <div class="header-content">
                     <h1
-                        class="header__title text-6xl font-bold leading-tight max-w-6xl mb-10 xl:text-7xl">We’re
+                        class="header__title text-6xl font-bold leading-tight max-w-6xl mb-20 xl:text-7xl">We’re
                         a
                         digital-first
                         creative
@@ -67,115 +67,126 @@
         <main class="main">
             <div class="main-container mb-28">
                 <div
-                    class="cards flex flex-row justify-center gap-3 mb-32 px-3 flex-wrap">
+                    class="cards flex flex-col items-center justify-center">
+                    <h2
+                        class="cards__title font-extrabold text-5xl mb-14 underline decoration-red-400 decoration-3">Our
+                        works</h2>
                     <div
-                        class="cards-container__left flex flex-col gap-8 pt-14 flex-wrap">
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">Fouders
-                                    &
-                                    Co</h2>
-                                <p class="cards__description">Made in
-                                    Swamsea.</p>
+                        class="cards-container flex flex-row justify-center
+                        gap-3 mb-32 px-3 flex-wrap">
+                        <div
+                            class="cards-container__left flex flex-col gap-8 pt-0 xl:pt-14 flex-wrap">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">Fouders
+                                        &
+                                        Co</h2>
+                                    <p class="cards__description">Made in
+                                        Swamsea.</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        class="rounded-md"
+                                        src="public/images/main/Rectangle1.svg"
+                                        alt="Rectangle1">
+                                </div>
                             </div>
-                            <div class="cards__image">
-                                <img
-                                    class="rounded-md"
-                                    src="public/images/main/Rectangle 1.svg"
-                                    alt="Rectangle 1">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">My
+                                        Road to Wembley</h2>
+                                    <p class="cards__description">The beauty of
+                                        the
+                                        FA
+                                        cup</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        class="rounded-md"
+                                        src="public/images/main/Rectangle3.svg"
+                                        alt="Rectangle3">
+                                </div>
                             </div>
-                        </div>
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">My
-                                    Road to Wembley</h2>
-                                <p class="cards__description">The beauty of the
-                                    FA
-                                    cup</p>
-                            </div>
-                            <div class="cards__image">
-                                <img
-                                    class="rounded-md"
-                                    src="public/images/main/Rectangle 3.svg"
-                                    alt="Rectangle 3">
-                            </div>
-                        </div>
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">Newspage</h2>
-                                <p class="cards__description">#BeTheStory</p>
-                            </div>
-                            <div class="cards__image">
-                                <img
-                                    class="rounded-md"
-                                    src="public/images/main/Rectangle 5.svg"
-                                    alt="Rectangle 5">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="cards-container__right flex flex-col gap-8 flex-wrap">
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">Velesse
-                                    <sup>TM</sup></h2>
-                                <p class="cards__description">Find your fast</p>
-                            </div>
-                            <div class="cards__image">
-                                <img
-                                    class="rounded-md"
-                                    src="public/images/main/Rectangle 2.svg"
-                                    alt="Rectangle 2">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">Newspage</h2>
+                                    <p
+                                        class="cards__description">#BeTheStory</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        class="rounded-md"
+                                        src="public/images/main/Rectangle5.svg"
+                                        alt="Rectangle5">
+                                </div>
                             </div>
                         </div>
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">Scargill
-                                    Mann & Co</h2>
-                                <p class="cards__description">Helping to find
-                                    your
-                                    dream house</p>
+                        <div
+                            class="cards-container__right flex flex-col gap-8 flex-wrap">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">Velesse
+                                        <sup>TM</sup></h2>
+                                    <p class="cards__description">Find your
+                                        fast</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        class="rounded-md"
+                                        src="public/images/main/Rectangle2.svg"
+                                        alt="Rectangle2">
+                                </div>
                             </div>
-                            <div class="cards__image">
-                                <img
-                                    class="rounded-md"
-                                    src="public/images/main/Rectangle 4.svg"
-                                    alt="Rectangle 4">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">Scargill
+                                        Mann & Co</h2>
+                                    <p class="cards__description">Helping to
+                                        find
+                                        your
+                                        dream house</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        class="rounded-md"
+                                        src="public/images/main/Rectangle4.svg"
+                                        alt="Rectangle4">
+                                </div>
                             </div>
-                        </div>
-                        <div class="cards__item relative">
-                            <div
-                                class="cards__content absolute text-white pl-8 pt-10">
-                                <h2
-                                    class="cards__title text-3xl font-bold mb-3">Acacia
-                                    Training</h2>
-                                <p class="cards__description">Delivering
-                                    training
-                                    different</p>
-                            </div>
-                            <div class="cards__image">
-                                <img
-                                    src="public/images/main/Rectangle 6.svg"
-                                    alt="Rectangle 6">
+                            <div class="cards__item relative">
+                                <div
+                                    class="cards__content absolute text-white pl-8 pt-10">
+                                    <h2
+                                        class="cards__title text-3xl font-bold mb-3">Acacia
+                                        Training</h2>
+                                    <p class="cards__description">Delivering
+                                        training
+                                        different</p>
+                                </div>
+                                <div class="cards__image">
+                                    <img
+                                        src="public/images/main/Rectangle6.svg"
+                                        alt="Rectangle6">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div
-                    class="about py-32 px-10 flex flex-col bg-zinc-800 flex-wrap">
+                    class="about py-32 px-10 xl:px-32 flex flex-col bg-zinc-800 flex-wrap">
                     <div class="info-content text-white mb-20">
-                        <h2 class="about__title text-5xl font-bold mb-10">Our
+                        <h2
+                            class="about__title text-5xl font-bold mb-10">Our
                             services</h2>
                         <p
                             class="about__description text-xl max-w-2xl leading-normal">
@@ -185,7 +196,7 @@
                         </p>
                     </div>
                     <div
-                        class="sections-content flex flex-row justify-center gap-10 flex-wrap">
+                        class="sections-content flex flex-row justify-between [1830px]:justify-center xl:justify-center lg:justify-center md:justify-center sm:justify-center gap-10 flex-wrap">
                         <div
                             class="section__item  bg-zinc-700 pt-24 pb-16 pl-16 rounded-lg">
                             <div class="section__image mb-20 pl-32">
@@ -232,7 +243,8 @@
                                             Development</a></li>
                                     <li
                                         class="section__link text-xl text-red-400"><a
-                                            href="#">Web Applications</a></li>
+                                            href="#">Web
+                                            Applications</a></li>
                                     <li
                                         class="section__link text-xl text-red-400"><a
                                             href="#">Support And
@@ -241,7 +253,7 @@
                             </div>
                         </div>
                         <div
-                            class="section__item  bg-zinc-700 pt-24 pb-16 pl-16 rounded-lg">
+                            class="section__item bg-zinc-700 pt-24 pb-16 pl-16 rounded-lg">
                             <div class="section__image mb-20 pl-36">
                                 <img
                                     src="public/images/main/market.svg"
@@ -267,77 +279,83 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div
+                class="articles pt-28 px-10 pb-16 flex flex-col justify-center items-center flex-wrap">
                 <div
-                    class="articles pt-28 px-10 pb-16 flex flex-col justify-center items-center flex-wrap">
+                    class="articles-content flex flex-col items-center mb-20">
+                    <h2
+                        class="article__title font-extrabold mb-4 text-5xl">From
+                        the
+                        Studio</h2>
+                    <p
+                        class="articles__description text-xl text-red-400 tracking-widest">Latest
+                        news, insight and stories about us!</p>
+                </div>
+                <div
+                    class="article-cards flex flex-row justify-center gap-12 mb-20 flex-wrap">
                     <div
-                        class="articles-content flex flex-col items-center mb-20">
-                        <h2
-                            class="article__title font-extrabold mb-4 text-5xl">From
-                            the
-                            Studio</h2>
-                        <p
-                            class="articles__description text-xl text-red-400 tracking-widest">Latest
-                            news, insight and stories about us!</p>
+                        class="article-card relative flex items-center">
+                        <div
+                            class="card__content absolute bottom-14 w-full text-white p-4">
+                            <h3
+                                class="card__description font-bold text-2xl leading-normal">
+                                The Best Link Building Strategies to
+                                Land
+                                High-Quality Backlinks.
+                            </h3>
+                        </div>
+                        <div class="card__image">
+                            <img
+                                src="public/images/main/schema.svg"
+                                alt="schema">
+                        </div>
                     </div>
                     <div
-                        class="article-cards flex flex-row justify-center gap-12 mb-20 flex-wrap">
-                        <div class="article-card relative flex items-center">
-                            <div
-                                class="card__content absolute bottom-14 w-full text-white p-4">
-                                <h3
-                                    class="card__description font-bold text-2xl leading-normal">
-                                    The Best Link Building Strategies to Land
-                                    High-Quality Backlinks.
-                                </h3>
-                            </div>
-                            <div class="card__image">
-                                <img
-                                    src="public/images/main/schema.svg"
-                                    alt="schema">
-                            </div>
+                        class="article-card relative flex items-center">
+                        <div
+                            class="card__content absolute bottom-14 w-full text-white p-4">
+                            <h3
+                                class="card__description font-bold text-2xl leading-normal mb-4">
+                                What is search intent & why does it
+                                metter?
+                            </h3>
+                            <p class="card__date text-gray-300">April
+                                14,
+                                2022</p>
                         </div>
-                        <div class="article-card relative flex items-center">
-                            <div
-                                class="card__content absolute bottom-14 w-full text-white p-4">
-                                <h3
-                                    class="card__description font-bold text-2xl leading-normal mb-4">
-                                    What is search intent & why does it metter?
-                                </h3>
-                                <p class="card__date text-gray-300">April 14,
-                                    2022</p>
-                            </div>
-                            <div class="card__image">
-                                <img
-                                    class="w-full h-auto"
-                                    src="public/images/main/keyboard.svg"
-                                    alt="keyboard">
-                            </div>
-                        </div>
-                        <div class="article-card relative flex items-center">
-                            <div
-                                class="card__content absolute bottom-14 w-full text-white p-4">
-                                <h3
-                                    class="card__description font-bold text-2xl leading-normal mb-4">
-                                    Figma vs Sketch - what should go in your
-                                    design toolbox ?
-                                </h3>
-                                <p class="card__date text-gray-300">April 8,
-                                    2022</p>
-                            </div>
-                            <div class="card__image">
-                                <img
-                                    class="w-full h-auto"
-                                    src="public/images/main/figma.svg"
-                                    alt="figma">
-                            </div>
+                        <div class="card__image">
+                            <img
+                                class="w-full h-auto"
+                                src="public/images/main/keyboard.svg"
+                                alt="keyboard">
                         </div>
                     </div>
-                    <div class="article-view">
-                        <button
-                            class="article__button bg-red-400 text-white px-10 py-2 text-lg rounded-3xl">View
-                            all
-                            news</button>
+                    <div
+                        class="article-card relative flex items-center">
+                        <div
+                            class="card__content absolute bottom-14 w-full text-white p-4">
+                            <h3
+                                class="card__description font-bold text-2xl leading-normal mb-4">
+                                Figma vs Sketch - what should go in your
+                                design toolbox ?
+                            </h3>
+                            <p class="card__date text-gray-300">April 8,
+                                2022</p>
+                        </div>
+                        <div class="card__image">
+                            <img
+                                class="w-full h-auto"
+                                src="public/images/main/figma.svg"
+                                alt="figma">
+                        </div>
                     </div>
+                </div>
+                <div class="article-view">
+                    <button
+                        class="article__button bg-red-400 text-white px-10 py-2 text-lg rounded-3xl">View
+                        all
+                        news</button>
                 </div>
             </div>
         </main>
@@ -385,7 +403,8 @@
                                     alt="twitter">
                             </a>
                             <a href="#">
-                                <img src="public/images/footer/instagram.svg"
+                                <img
+                                    src="public/images/footer/instagram.svg"
                                     alt="instagram">
                             </a>
                             <a href="#">
@@ -406,7 +425,8 @@
                     </div>
                     <div class="right-submit max-w-lg">
                         <p class="footer-description tracking-widest mb-7">
-                            by clicking the Submit button below you are agreeing
+                            by clicking the Submit button below you are
+                            agreeing
                             to receive email marketing communications from
                             think3 from time to time.
                         </p>
@@ -419,6 +439,7 @@
                         </div>
                     </div>
                 </div>
-            </footer>
-        </body>
-    </html>
+            </div>
+        </footer>
+    </body>
+</html>
