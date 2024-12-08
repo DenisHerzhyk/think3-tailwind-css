@@ -682,8 +682,8 @@ video {
   gap: 3rem;
 }
 
-.gap-20 {
-  gap: 5rem;
+.gap-28 {
+  gap: 7rem;
 }
 
 .gap-3 {
@@ -700,10 +700,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-28 {
-  gap: 7rem;
 }
 
 .overflow-x-hidden {
@@ -907,17 +903,9 @@ video {
   .lg\:justify-center {
     justify-content: center;
   }
-
-  .lg\:gap-14 {
-    gap: 3.5rem;
-  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:gap-10 {
-    gap: 2.5rem;
-  }
-
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
