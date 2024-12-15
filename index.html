@@ -14,10 +14,11 @@
       rel="stylesheet">
     <link rel="stylesheet" href="src/css/output.css">
   </head>
-  <body class="w-full min-w-[33.75rem] overflow-x-hidden">
+  <body class="w-full min-w-[415px] overflow-x-hidden">
     <!--Header-->
     <header class="header min-h-screen mb-0">
-      <div class="header__container flex flex-col pt-10 px-10 min-h-screen">
+      <div
+        class="header__container flex flex-col mb-24 sm:mb-0 pt-10 px-10 min-h-screen">
         <div
           class="header-tabs flex flex-col items-center justify-center gap-5 md:justify-between md:flex-row">
           <img src="public/images/header/logo.svg" alt="logo">
@@ -47,7 +48,7 @@
         <div
           class="header-content flex flex-col gap-10 h-full mt-14 sm:my-auto">
           <h1
-            class="header__title text-4xl font-bold leading-tight max-w-6xl md:text-5xl xl:text-6xl">We’re
+            class="header__title text-5xl font-bold leading-tight max-w-6xl xl:text-6xl">We’re
             a
             digital-first
             creative
@@ -55,7 +56,7 @@
             product.
           </h1>
           <p
-            class="header__description font-medium text-red-400 text-base leading-normal max-w-2xl tracking-widest md:text-lg xl:text-xl">
+            class="header__description font-medium text-red-400 text-lg leading-normal max-w-2xl tracking-widest xl:text-xl">
             think3 is a full-service agency, busy designing and
             building beautiful digital products, brands, and
             experiences. We make it happen.
@@ -70,7 +71,7 @@
           class="cards flex flex-col items-center justify-center"
           id="works">
           <h2
-            class="cards__title font-bold text-4xl md:text-5xl xl:text-6xl mb-10 underline decoration-red-400 decoration-3">Our
+            class="cards__title font-bold text-5xl xl:text-6xl mb-10 underline decoration-red-400 decoration-3">Our
             works</h2>
           <div
             class="cards-container flex flex-row justify-center
@@ -200,7 +201,7 @@
           id="services">
           <div class="info-content text-white mb-20">
             <h2
-              class="about__title text-4xl md:text-5xl xl:text-6xl font-bold mb-10">Our
+              class="about__title text-5xl xl:text-6xl font-bold mb-10">Our
               services</h2>
             <p
               class="about__description text-lg xl:text-xl max-w-2xl leading-normal">
@@ -212,9 +213,9 @@
           <div
             class="sections-content flex flex-row justify-center gap-14 flex-wrap">
             <div
-              class="section__item bg-zinc-700 pt-20 pb-8 pl-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
+              class="section__item bg-zinc-700 p-6 py-10 sm:p-0 sm:pl-8 sm:pt-16 sm:pb-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
               data-aos="fade-up">
-              <div class="section__image mb-24 pl-24">
+              <div class="section__image mb-10 sm:mb-24 px-0 sm:pl-24 sm:px-0">
                 <img
                   src="public/images/main/design.svg"
                   alt="design">
@@ -240,9 +241,9 @@
               </div>
             </div>
             <div
-              class="section__item  bg-zinc-700 pt-16 pb-8 pl-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
+              class="section__item bg-zinc-700 p-6 py-10 sm:p-0 sm:pl-8 sm:pt-16 sm:pb-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
               data-aos="fade-up">
-              <div class="section__image mb-24 pl-24">
+              <div class="section__image mb-10 sm:mb-24 px-0 sm:pl-24 sm:px-0">
                 <img
                   src="public/images/main/build.svg"
                   alt="build">
@@ -255,8 +256,7 @@
                   class="section__list flex flex-col gap-3 flex-wrap">
                   <li
                     class="section__link text-lg text-red-400 hover:text-red-600 transition duration-300 ease-in-out"><a
-                      href="#">Website
-                      Development</a></li>
+                      href="#">Website Development</a></li>
                   <li
                     class="section__link text-lg text-red-400 hover:text-red-600 transition duration-300 ease-in-out"><a
                       href="#">Web
@@ -269,9 +269,9 @@
               </div>
             </div>
             <div
-              class="section__item bg-zinc-700 pt-20 pb-8 pl-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
+              class="section__item bg-zinc-700 p-6 py-10 sm:p-0 sm:pl-8 sm:pt-16 sm:pb-8 rounded-lg flex-shrink-0 opacity-100 transform translate-y-10 transition-all duration-700 ease-out"
               data-aos="fade-up">
-              <div class="section__image mb-24 pl-24">
+              <div class="section__image mb-10 sm:mb-24 px-0 sm:pl-24 sm:px-0">
                 <img
                   src="public/images/main/market.svg"
                   alt="market">
@@ -298,7 +298,7 @@
         </div>
       </div>
       <div
-        class="articles min-h-screen pt-28 px-10 pb-16 flex flex-col justify-center items-center flex-wrap"
+        class="article py-10 px-4 md:px-10 flex flex-col justify-center items-center flex-wrap"
         id="blog">
         <div
           class="articles-content flex flex-col items-center mb-14">
@@ -307,7 +307,7 @@
             the
             Studio</h2>
           <p
-            class="articles__description text-base md:text-lg xl:text-xl text-red-400 tracking-widest">Latest
+            class="articles__description text-base md:text-lg xl:text-xl text-red-400 text-center tracking-widest">Latest
             news, insight and stories about us!</p>
         </div>
         <div
@@ -318,7 +318,7 @@
             <div
               class="card__content absolute bottom-14 w-full text-white p-4">
               <h3
-                class="card__description font-bold text-2xl leading-normal">
+                class="card__description font-bold text-xl md:text-2xl leading-normal">
                 The Best Link Building Strategies to
                 Land
                 High-Quality Backlinks.
@@ -336,11 +336,11 @@
             <div
               class="card__content absolute bottom-14 w-full text-white p-4">
               <h3
-                class="card__description font-bold text-2xl leading-normal mb-4">
+                class="card__description font-bold text-xl md:text-2xl leading-normal mb-4">
                 What is search intent & why does it
                 metter?
               </h3>
-              <p class="card__date text-gray-300">April
+              <p class="card__date text-sm md:text-base text-gray-300">April
                 14,
                 2022</p>
             </div>
@@ -357,11 +357,11 @@
             <div
               class="card__content absolute bottom-14 w-full text-white p-4">
               <h3
-                class="card__description font-bold text-2xl leading-normal mb-4">
+                class="card__description font-bold text-xl md:text-2xl leading-normal mb-4">
                 Figma vs Sketch - what should go in your
                 design toolbox ?
               </h3>
-              <p class="card__date text-gray-300">April 8,
+              <p class="card__date text-sm md:text-base text-gray-300">April 8,
                 2022</p>
             </div>
             <div class="card__image">
