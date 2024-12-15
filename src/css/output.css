@@ -902,14 +902,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
-.decoration-red-400 {
-  text-decoration-color: #f87171;
-}
-
 .opacity-100 {
   opacity: 1;
 }
@@ -1033,11 +1025,6 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-base {
